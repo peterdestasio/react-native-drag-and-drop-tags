@@ -95,7 +95,6 @@ export default class Tags extends PureComponent {
           // remove the tag
           ...state.tags.slice(0, index),
           ...state.tags.slice(index + 1),
-          // d
         ]
       }
     });
